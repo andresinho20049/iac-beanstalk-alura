@@ -1,0 +1,14 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+      "Name": "andresinho200498/mockapi",
+      "Update": "true"
+    },
+    "Ports": [
+        {
+          "ContainerPort": 8080,
+          "HostPort": 8080
+        }
+      ],
+    "Entrypoint": "java -jar mockapi.jar"
+  }
